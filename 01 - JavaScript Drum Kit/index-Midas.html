@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="keys">
     <div data-key="65" class="key">
@@ -55,13 +57,29 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
-<script>
-  window.addEventListener('keyDown', (e)=>{
-    console.log(e)
-  })
+  <script>
+    function playSound(e) {
+      const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+      const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+      if (!audio) return; //如果沒有找到對應的keycode，傳回空值
+      audio.currentTime = 0 //連續播放音訊沒有延遲
+      audio.play()
+      key.classList.add('playing')
+    }
 
-</script>
+    function removeTransition(e) {
+      if (e.propertyName !== 'transform') return;  //不顯示不是transform以外的屬性
+      this.classList.remove('playing')
+    }
+
+    const keys = document.querySelectorAll('.key');
+    keys.forEach(key => key.addEventListener('transitionend', removeTransition))
+
+    window.addEventListener('keydown', playSound);
+
+  </script>
 
 
 </body>
+
 </html>
