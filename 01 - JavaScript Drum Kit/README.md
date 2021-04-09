@@ -1,7 +1,7 @@
 # JS30-Day1-JavaScript Drum Kit
 此小作品是當使用者按下鍵盤按鈕後，就會發出一個聲音，同時按鈕也會有簡單的特效。
 
-Demo: https://a90100.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-Harry.html
+Demo: https://midastung.github.io/JS30/01%20-%20JavaScript%20Drum%20Kit/index-Midas.html
 
 ## 以下內容是實作中的重點整理:
 ### 1. 為了讓整個網頁監聽鍵盤按下的事件，使用了 window 綁定 keydown 事件
