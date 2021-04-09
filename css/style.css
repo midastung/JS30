@@ -1,0 +1,46 @@
+.clock, .clock_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.clock {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  background-color: #a06ee1;
+  -webkit-box-shadow: 8px 20px 15px #0000007d;
+          box-shadow: 8px 20px 15px #0000007d;
+}
+
+.clock_inner {
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+  position: relative;
+  border: 2px solid #212F0B;
+  background-color: #421b9b;
+}
+
+.scale {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.scale_unit {
+  -webkit-transform: rotate(180deg) translateY(120px);
+          transform: rotate(180deg) translateY(120px);
+  width: 2px;
+  height: 24px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
