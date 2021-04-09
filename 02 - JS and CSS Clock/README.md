@@ -1,6 +1,6 @@
 # JS30-Day2-CSS + JS Clock
 這次的練習是實作一個小時鐘
-
+Demo: https://midastung.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/index-Midas.html
 ## 以下內容是實作中的重點整理:
 ### 1. CSS 屬性
 1. transform-origin: 設定物件變形的起始點
