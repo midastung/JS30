@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.host":"localhost",
+}
