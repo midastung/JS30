@@ -27,7 +27,15 @@ function compareNumbers(a, b) {
 }
 //降冪的方式排列
 ```
-
+### 第6題
+Array.prototype.map()，map() 方法會建立一個新的陣列，其內容為原陣列的每一個元素經由回呼函式運算後所回傳的結果之集合。
+而使用map()前，必須將資料轉換成「陣列」
+```Javascript
+const categorys = document.querySelector('.mw-category');
+//以下是轉換成陣列的方法
+const links = [...categorys.querySelectorAll('a')];
+const links = Array.from(categorys.querySelectorAll('a'));
+```
 ### 第 8 題:
 原本以為 reduce 的第一個參數只能設定數字的累加值，沒想到裡面還能放空物件，這是自己以前沒注意到的細節
 ```javascript
