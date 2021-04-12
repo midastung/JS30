@@ -14,3 +14,23 @@ CSS 在這個過程中佔了重點，運用 `flex` 可以使各個元素按一�
    2. 設置其子元素的佈局方式：垂直水平居中（沿主軸、側軸居中）
 4. 設定點擊圖片後文字移動的樣式
 5. 設定點擊圖片展開後的圖片的 `flex` 值
+
+## JavaScript 
+```Javascript
+<script>
+    const panels = document.querySelectorAll('.panel');
+    panels.forEach(panel => {
+      panel.addEventListener('click', ()=>{
+        panel.classList.toggle('open');      
+      })
+    })
+
+    panels.forEach(panel => {
+      panel.addEventListener('transitionend', (e)=>{
+       if(e.propertyName.includes('flex-grow')){
+         panel.classList.toggle('open-active');
+       }
+      })
+    })
+  </script>
+```
