@@ -3,4 +3,5 @@
     "liveServer.settings.useLocalIp": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.host":"localhost",
+    "liveServer.settings.CustomBrowser": "firefox"
 }
