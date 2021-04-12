@@ -27,6 +27,7 @@ CSS 在這個過程中佔了重點，運用 `flex` 可以使各個元素按一�
 
     panels.forEach(panel => {
       panel.addEventListener('transitionend', (e)=>{
+      //要透過監聽到的元件中propertyName爲何來執行動畫切換
        if(e.propertyName.includes('flex-grow')){
          panel.classList.toggle('open-active');
        }
