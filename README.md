@@ -3,7 +3,7 @@
 https://javascript30.com/
 
 課程的 Github Repo:
-https://github.com/wesbos/JS30
+https://github.com/wesbos/JavaScript30
 
 ## 以下為筆記& Demo 列表
 | No | 主題 | 筆記 | DEMO |
