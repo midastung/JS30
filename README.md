@@ -12,7 +12,7 @@ https://github.com/wesbos/JS30
 | 02 | JS and CSS Clock | [筆記](https://github.com/midastung/JS30/tree/main/02%20-%20JS%20and%20CSS%20Clock) | [DEMO](https://midastung.github.io/JS30/02%20-%20JS%20and%20CSS%20Clock/index-Midas.html) |
 | 03 | CSS Variables | [筆記](https://github.com/midastung/JS30/tree/main/03%20-%20CSS%20Variables) | [DEMO](https://midastung.github.io/JS30/03%20-%20CSS%20Variables/index-Midas.html) |
 | 04 | Array Cardio Day 1 | [筆記](https://github.com/midastung/JS30/tree/main/04%20-%20Array%20Cardio%20Day%201) | [DEMO](https://midastung.github.io/JS30/04%20-%20Array%20Cardio%20Day%201/index-Midas.html) |
-| 05 | Flex Panel Gallery | N/A | [DEMO](https://midastung.github.io/JS30/05%20-%20Flex%20Panel%20Gallery/index-Harry.html) |
+| 05 | Flex Panel Gallery | [筆記](https://github.com/midastung/JS30/tree/main/05%20-%20Flex%20Panel%20Gallery) | [DEMO](https://midastung.github.io/JS30/05%20-%20Flex%20Panel%20Gallery/index-Harry.html) |
 | 06 | Type Ahead | [筆記](https://github.com/midastung/JS30/tree/main/06%20-%20Type%20Ahead) | [DEMO](https://midastung.github.io/JS30/06%20-%20Type%20Ahead/index-Harry.html) |
 | 07 | Array Cardio Day 2 | N/A | [DEMO](https://midastung.github.io/JS30/07%20-%20Array%20Cardio%20Day%202/index-Harry.html) |
 | 08 | Fun with HTML5 Canvas | [筆記](https://github.com/midastung/JS30/tree/main/08%20-%20Fun%20with%20HTML5%20Canvas) | [DEMO](https://midastung.github.io/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/index-Harry.html) |
