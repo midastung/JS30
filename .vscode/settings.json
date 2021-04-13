@@ -3,5 +3,6 @@
     "liveServer.settings.useLocalIp": true,
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.host":"localhost",
-    "liveServer.settings.CustomBrowser": "firefox"
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.port": 5271
 }

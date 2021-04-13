@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Type Ahead 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <form class="search-form">
+    <input type="text" class="search" placeholder="City or State">
+    <ul class="suggestions">
+      <li>Filter for a city</li>
+      <li>or a state</li>
+    </ul>
+  </form>
+  <script>
+    const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+    const searchinput = document.querySelector('.search');
+    const suggestions = document.querySelector('.suggestions');
+    const cities = [];
+
+    //取得資料
+    fetch(endpoint)
+      .then(blob => blob.json())
+      .then(data => cities.push(...data))
+
+    // 尋找符合的資料
+    function findMatched(searchCity, cities){
+      const regex = new RegExp(searchCity, 'gi');
+      return cities.filter(place => {
+        return place.city.match(regex) || place.state.match(regex)
+      })
+    }
+
+    // 將符合的資料加入 html
+    function displayMatches() { 
+      const matchArray = findMatched(this.value, cities)
+      const html = matchArray.map(place => {
+        return `
+        <li>
+          <span class"name">${place.city}, ${place.state}</span>
+          <span class="population">${place.population}</span>
+        </li>
+        `;
+      }).join('')
+      suggestions.innerHTML = html
+    }
+
+    searchinput.addEventListener('change', displayMatches)
+    searchinput.addEventListener('keyup', displayMatches)
+  </script>
+</body>
+
+</html>
