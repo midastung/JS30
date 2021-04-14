@@ -17,7 +17,7 @@ https://github.com/wesbos/JavaScript30
 | 07 | Array Cardio Day 2 | N/A | [DEMO](https://midastung.github.io/JS30/07%20-%20Array%20Cardio%20Day%202/index-Midas.html) |
 | 08 | Fun with HTML5 Canvas | [筆記](https://github.com/midastung/JS30/tree/main/08%20-%20Fun%20with%20HTML5%20Canvas) | [DEMO](https://midastung.github.io/JS30/08%20-%20Fun%20with%20HTML5%20Canvas/index-Midas.html) |
 | 09 | Dev Tools Domination | [筆記](https://github.com/midastung/JS30/tree/main/09%20-%20Dev%20Tools%20Domination) |[DEMO](https://midastung.github.io/JS30/09%20-%20Dev%20Tools%20Domination/index-Midas.html)  |
-| 10 | Hold Shift and Check Checkboxes | N/A | [DEMO](https://midastung.github.io/JS30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-Midas.html) |
+| 10 | Hold Shift and Check Checkboxes | [筆記](https://github.com/midastung/JS30/tree/main/09%20-%20Dev%20Tools%20Domination | [DEMO](https://midastung.github.io/JS30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-Midas.html) |
 | 11 | Custom Video Player | [筆記](https://github.com/midastung/JS30/tree/main/11%20-%20Custom%20Video%20Player) | [DEMO](https://midastung.github.io/JS30/11%20-%20Custom%20Video%20Player/index.html) |
 | 12 | Key Sequence Detection | N/A | [DEMO](https://midastung.github.io/JS30/12%20-%20Key%20Sequence%20Detection/index-Midas.html) |
 | 13 | Slide in on Scroll | N/A | [DEMO](https://midastung.github.io/JS30/13%20-%20Slide%20in%20on%20Scroll/index-Midas.html) |
