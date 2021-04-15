@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Canvas</title>
+</head>
+
+<body>
+  <canvas id="draw" width="800" height="800"></canvas>
+  <script>
+    //設定畫布
+    const canvas = document.querySelector('#draw');
+    //畫布內容
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    ctx.strokeStyle = '#bada55';
+    //畫筆設定
+    ctx.lineJoin = 'round';
+    ctx.lineCap = 'round';
+    ctx.lineWidth = 100;
+
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+    //顏色
+    let hue = 0;
+    //筆刷大小
+    let direction = true;
+
+    function draw(e) {
+      if (!isDrawing) {
+        return;
+      } else {
+        //畫筆顏色轉換
+        ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`
+        //開始下筆處
+        ctx.beginPath();
+        ctx.moveTo(lastX, lastY);
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke();
+        [lastX, lastY] = [e.offsetX, e.offsetY]
+        hue++
+        // 重置筆刷顏色
+        if (hue >= 360) {
+          hue = 0;
+        }
+        //筆刷粗度變化
+        //如果筆刷大小>=100或<=1，direction會切換boolean值
+        if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+          direction = !direction;
+        }
+        //direction為true 筆刷加粗，反之。
+        if(direction){
+          ctx.lineWidth ++;
+        } else {
+          ctx.lineWidth --;
+        }
+      }
+    }
+
+    canvas.addEventListener('mousemove', draw);
+    canvas.addEventListener('mousedown', (e) => {
+      isDrawing = true;
+      // 畫筆跟著座標走
+      [lastX, lastY] = [e.offsetX, e.offsetY];
+    });
+    canvas.addEventListener('mouseup', () => isDrawing = false);
+    canvas.addEventListener('mouseout', () => isDrawing = false);
+
+
+
+
+  </script>
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+  </style>
+
+</body>
+
+</html>
