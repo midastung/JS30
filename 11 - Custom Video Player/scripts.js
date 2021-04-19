@@ -13,7 +13,7 @@ const fullscreen = player.querySelector('.fullScreen');
 function togglePlay() {
     const method = video.paused ? 'play' : 'pause';
     //2.變換播放鍵樣式
-    const icon = video.paused ? '►' : '❚ ❚';
+    const icon = video.paused ? '❚ ❚' : '►';
     toggle.textContent = icon;
     video[method]();
 }
