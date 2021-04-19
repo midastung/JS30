@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Key Detection</title>
   <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+  <div>已輸入的密碼：<span class="inputCode"></span></div>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
             //彩蛋套件
             cornify_add()
         }
-        console.log(pressed)
+        document.querySelector('.inputCode').innerHTML = pressed.join('-')
       })
   </script>
 </body>
