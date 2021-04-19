@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div>已輸入的密碼：<span class="inputCode"></span></div>
+    <h2>已輸入的密碼：<span class="inputCode"></span></h2>
     <script>
         //輸入的字變成陣列
         const pressed = [];
@@ -25,8 +25,8 @@
                 //彩蛋套件
                 cornify_add()
             }
-            document.querySelector('.inputCode').innerHTML = pressed.join('-')
-        })
+            document.querySelector('.inputCode').innerHTML = pressed.join('-');
+        });
     </script>
 </body>
 
