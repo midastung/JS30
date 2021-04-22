@@ -20,7 +20,7 @@ https://github.com/wesbos/JavaScript30
 | 10 | Hold Shift and Check Checkboxes | [筆記](https://github.com/midastung/JS30/tree/main/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes) | [DEMO](https://midastung.github.io/JS30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-Midas.html) |
 | 11 | Custom Video Player | [筆記](https://github.com/midastung/JS30/tree/main/11%20-%20Custom%20Video%20Player) | [DEMO](https://midastung.github.io/JS30/11%20-%20Custom%20Video%20Player/index.html) |
 | 12 | Key Sequence Detection | [筆記](https://github.com/midastung/JS30/tree/main/12%20-%20Key%20Sequence%20Detection) | [DEMO](https://midastung.github.io/JS30/12%20-%20Key%20Sequence%20Detection/index-Midas.html) |
-| 13 | Slide in on Scroll | N/A | [DEMO](https://midastung.github.io/JS30/13%20-%20Slide%20in%20on%20Scroll/index-Midas.html) |
+| 13 | Slide in on Scroll | [筆記](https://github.com/midastung/JS30/tree/main/13%20-%20Slide%20in%20on%20Scroll) | [DEMO](https://midastung.github.io/JS30/13%20-%20Slide%20in%20on%20Scroll/index-Midas.html) |
 | 14 | JavaScript References VS Copying | [筆記](https://github.com/midastung/JS30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying) | [DEMO](https://midastung.github.io/JS30/14%20-%20JavaScript%20References%20VS%20Copying/index-Midas.html) |
 | 15 | LocalStorage | [筆記](https://github.com/midastung/JS30/tree/main/15%20-%20LocalStorage) | [DEMO](https://midastung.github.io/JS30/15%20-%20LocalStorage/index-Midas.html) |
 | 16 | Mouse Move Shadow | [筆記](https://github.com/midastung/JS30/tree/main/16%20-%20Mouse%20Move%20Shadow) | [DEMO](https://midastung.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/index-Midas.html) |
