@@ -19,7 +19,6 @@
 所以要監聽的是整個視窗，用`window`，事件選用`scroll`，  
 但是如果單純使用`scroll`來操作的話，每次的畫面滾動都會有大量事件被觸發，  
 會對效能上造成影響，所以作者多寫了一個`debounce`來使觸發間隔為20毫秒以上：
-![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180101/20107212YuxqQhzd9Z.png)
 ````javascript
 function debounce(func, wait = 20, immediate = true) {
     var timeout;
@@ -39,6 +38,7 @@ function debounce(func, wait = 20, immediate = true) {
 所以監聽事件就會寫成`window.addEventListener('scroll', debounce(checkSlide));`。  
 
 ### Step3. 設定觸發後的事件內容
+![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180101/20107212YuxqQhzd9Z.png)
 在一開始先取得所有`.slide-in`的圖片元素，使用`querySelectorAll`，
 ````javascript
 const sliderImages = document.querySelectorAll('.slide-in');
