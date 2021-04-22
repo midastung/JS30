@@ -38,7 +38,7 @@ function debounce(func, wait = 20, immediate = true) {
 所以監聽事件就會寫成`window.addEventListener('scroll', debounce(checkSlide));`。  
 
 ### Step3. 設定觸發後的事件內容
-![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180101/20107212YuxqQhzd9Z.png)
+![](https://d1dwq032kyr03c.cloudfront.net/upload/images/20180101/20107212YuxqQhzd9Z.png)   
 在一開始先取得所有`.slide-in`的圖片元素，使用`querySelectorAll`，
 ````javascript
 const sliderImages = document.querySelectorAll('.slide-in');
