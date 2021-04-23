@@ -38,8 +38,7 @@
 
   <script>
     const hero = document.querySelector('.hero');
-    const text = document.querySelector('h1');
-    const walk = 100 //100px
+    const text = document.querySelector('h1'); const walk = 100 //100px
 
     function shadow(e) {
       // 透過解構賦值取得並設定資訊
@@ -55,15 +54,13 @@
       const ywalk = Math.round((y / height * walk) - (walk / 2));
       console.log(xwalk, ywalk)
       text.style.textShadow = `
-      ${xwalk}px ${ywalk}px 0 rgb(255,0,255,0.7),
-      ${xwalk * -1}px ${ywalk}px 0 rgb(0,255,255,0.7),
-      ${ywalk}px ${xwalk * -1}px 0 rgb(0,255,0,0.7),
-      ${ywalk}px ${xwalk * -1}px 0 rgb(0,0,255,0.7)
+        ${xwalk}px ${ywalk}px 0 rgb(255,0,255,0.7),
+        ${xwalk * -1}px ${ywalk}px 0 rgb(0,255,255,0.7),
+        ${ywalk}px ${xwalk * -1}px 0 rgb(0,255,0,0.7),
+        ${ywalk}px ${xwalk * -1}px 0 rgb(0,0,255,0.7)
       `
     }
-
-
-    hero.addEventListener('mousemove', shadow)
+    hero.addEventListener('mousemove', shadow)    
   </script>
 </body>
 
