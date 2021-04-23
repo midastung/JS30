@@ -37,25 +37,21 @@
   </style>
 
   <script>
-    const hero = document.querySelector('.hero');
-    const text = document.querySelector('h1'); 
+    const hero = document.querySelector('.hero')
+    const text = document.querySelector('h1')
     const walk = 100 //100px
 
     function shadow(e) {
-      // 透過解構賦值取得並設定資訊
-      const { offsetWidth: width, offsetHeight: height } = hero;
-
-      //offsetX, offsetY 皆是mouse event
+      //固定值 (607, 437)
+      const { offsetWidth: width, offsetHeight: height } = hero
       let { offsetX: x, offsetY: y } = e
-      // 如果在目標區域外，則在加上目標座標值
       if (this !== e.target) {
         x = x + e.target.offsetLeft;
         y = y + e.target.offsetTop;
       }
-      //Math.round 函數回傳四捨五入後的近似值
-      const xwalk = Math.round((x / width * walk) - (walk / 2));
-      const ywalk = Math.round((y / height * walk) - (walk / 2));
-      console.log(xwalk, ywalk)
+
+      const xwalk = Math.round((x / width * walk) - (walk / 2))
+      const ywalk = Math.round((y / height * walk) - (walk / 2))
       text.style.textShadow = `
         ${xwalk}px ${ywalk}px 0 rgb(255,0,255,0.7),
         ${xwalk * -1}px ${ywalk}px 0 rgb(0,255,255,0.7),
@@ -63,7 +59,8 @@
         ${ywalk}px ${xwalk}px 0 rgb(0,0,255,0.7)
       `
     }
-    hero.addEventListener('mousemove', shadow)    
+
+    hero.addEventListener('mousemove', shadow)
   </script>
 </body>
 
