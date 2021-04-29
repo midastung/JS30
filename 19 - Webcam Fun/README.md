@@ -105,9 +105,3 @@ function redEffect(pixels) {
 ```
 >參閱：[MDN-CanvasRenderingContext2D.getImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData)
 >參閱:[MDN-putImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData)
-
-### 其他
-另外還有色彩分離與綠幕的濾鏡效果，  
-基本上程式操作邏輯同Step5的紅色濾鏡效果，  
-不過色彩的偏移設定我沒什麼顏色概念可以做說明..  
-所以只能用紅色濾鏡作為說明><..
