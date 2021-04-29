@@ -24,8 +24,8 @@ https://github.com/wesbos/JavaScript30
 | 14 | JavaScript References VS Copying | [筆記](https://github.com/midastung/JS30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying) | [DEMO](https://midastung.github.io/JS30/14%20-%20JavaScript%20References%20VS%20Copying/index-Midas.html) |
 | 15 | LocalStorage | [筆記](https://github.com/midastung/JS30/tree/main/15%20-%20LocalStorage) | [DEMO](https://midastung.github.io/JS30/15%20-%20LocalStorage/index-Midas.html) |
 | 16 | Mouse Move Shadow | [筆記](https://github.com/midastung/JS30/tree/main/16%20-%20Mouse%20Move%20Shadow) | [DEMO](https://midastung.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/index-Midas.html) |
-| 17 | Sort Without Articles | N/A | [DEMO](https://midastung.github.io/JS30/17%20-%20Sort%20Without%20Articles/index-Midas.html) |
-| 18 | Adding Up Times with Reduce | N/A | [DEMO](https://midastung.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-Midas.html) |
+| 17 | Sort Without Articles | [筆記](https://github.com/midastung/JS30/tree/main/17%20-%20Sort%20Without%20Articles) | [DEMO](https://midastung.github.io/JS30/17%20-%20Sort%20Without%20Articles/index-Midas.html) |
+| 18 | Adding Up Times with Reduce | [筆記](https://github.com/midastung/JS30/tree/main/18%20-%20Adding%20Up%20Times%20with%20Reduce) | [DEMO](https://midastung.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-Midas.html) |
 | 19 | Webcam Fun | [筆記](https://github.com/midastung/JS30/tree/main/19%20-%20Webcam%20Fun) | [DEMO](https://midastung.github.io/JS30/19%20-%20Webcam%20Fun/index.html) |
 | 20 | Speech Detection | [筆記](https://github.com/midastung/JS30/tree/main/20%20-%20Speech%20Detection) | [DEMO](https://midastung.github.io/JS30/20%20-%20Speech%20Detection/index-Midas.html) |
 | 21 | Geolocation | [筆記](https://github.com/midastung/JS30/tree/main/21%20-%20Geolocation) | [DEMO](https://midastung.github.io/JS30/21%20-%20Geolocation/index-Midas.html) |
