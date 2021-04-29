@@ -103,5 +103,5 @@ function redEffect(pixels) {
   return pixels;
 }
 ```
->參閱：[MDN-CanvasRenderingContext2D.getImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData)
+>參閱：[MDN-CanvasRenderingContext2D.getImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData)  
 >參閱：[MDN-putImageData()](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData)
