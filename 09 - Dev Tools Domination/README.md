@@ -1,5 +1,4 @@
 # 09 - Dev Tools Domination
->首次上傳：2017/06/24
 
 ## **主題**
 介紹chrome的開發工具，各種`console.`的用法：）  
