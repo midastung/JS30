@@ -26,9 +26,9 @@ https://github.com/wesbos/JavaScript30
 | 16 | Mouse Move Shadow | [筆記](https://github.com/midastung/JS30/tree/main/16%20-%20Mouse%20Move%20Shadow) | [DEMO](https://midastung.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/index-Midas.html) |
 | 17 | Sort Without Articles | [筆記](https://github.com/midastung/JS30/tree/main/17%20-%20Sort%20Without%20Articles) | [DEMO](https://midastung.github.io/JS30/17%20-%20Sort%20Without%20Articles/index-Midas.html) |
 | 18 | Adding Up Times with Reduce | [筆記](https://github.com/midastung/JS30/tree/main/18%20-%20Adding%20Up%20Times%20with%20Reduce) | [DEMO](https://midastung.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-Midas.html) |
-| 19 | Webcam Fun | [筆記](https://github.com/midastung/JS30/tree/main/19%20-%20Webcam%20Fun) | [DEMO](https://midastung.github.io/JS30/19%20-%20Webcam%20Fun/index.html) |
-| 20 | Speech Detection | [筆記](https://github.com/midastung/JS30/tree/main/20%20-%20Speech%20Detection) | [DEMO](https://midastung.github.io/JS30/20%20-%20Speech%20Detection/index.html) |
-| 21 | Geolocation | [筆記](https://github.com/midastung/JS30/tree/main/21%20-%20Geolocation) | [DEMO](https://midastung.github.io/JS30/21%20-%20Geolocation/index-Midas.html) |
+| 19 | Webcam Fun | [筆記](https://github.com/midastung/JS30/tree/main/19%20-%20Webcam%20Fun) | N/A |
+| 20 | Speech Detection | [筆記](https://github.com/midastung/JS30/tree/main/20%20-%20Speech%20Detection) | N/A |
+| 21 | Geolocation | [筆記](https://github.com/midastung/JS30/tree/main/21%20-%20Geolocation) | N/A |
 | 22 | Follow Along Link Highlighter | [筆記](https://github.com/midastung/JS30/tree/main/22%20-%20Follow%20Along%20Link%20Highlighter) |  [DEMO](https://midastung.github.io/JS30/22%20-%20Follow%20Along%20Link%20Highlighter/index-Midas.html) |
 | 23 | Speech Synthesis | [筆記](https://github.com/midastung/JS30/tree/main/23%20-%20Speech%20Synthesis) | [DEMO](https://midastung.github.io/JS30/23%20-%20Speech%20Synthesis/index-Midas.html) |
 | 24 | Sticky Nav | N/A | [DEMO](https://midastung.github.io/JS30/24%20-%20Sticky%20Nav/index-Midas.html) |
