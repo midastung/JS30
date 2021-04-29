@@ -47,7 +47,7 @@ recognition.addEventListener('result', e => {
 
   // 把回傳內容塞到p元素中
   p.textContent = transcript;
-  // 如果回傳內容已經結束（一段話的結尾）在建立一個新的p元素來放下一段文字
+  // 如果回傳內容已經結束(一段話的結尾)在建立一個新的p元素來放下一段文字
   if (e.results[0].isFinal) {
     p = document.createElement('p');
     words.appendChild(p);
@@ -59,9 +59,3 @@ recognition.addEventListener('end', recognition.start);
 // 開始識別
 recognition.start();
 ```
-
-## 其他
-在測試的過程中，不知道是我發音的問題還是怎麼回事，  
-我在說出`localhost`的過程中居然被識別成`Tokyo Hot`XDDDD  
-
-![](https://guahsu.io/2017/10/JavaScript30-20-Speech-Detection/console.png)
