@@ -29,7 +29,7 @@ https://github.com/wesbos/JavaScript30
 | 19 | Webcam Fun | [筆記](https://github.com/midastung/JS30/tree/main/19%20-%20Webcam%20Fun) | N/A |
 | 20 | Speech Detection | [筆記](https://github.com/midastung/JS30/tree/main/20%20-%20Speech%20Detection) | N/A |
 | 21 | Geolocation | [筆記](https://github.com/midastung/JS30/tree/main/21%20-%20Geolocation) | N/A |
-| 22 | Follow Along Link Highlighter | [筆記](https://github.com/midastung/JS30/tree/main/22%20-%20Follow%20Along%20Link%20Highlighter) |  [DEMO](https://midastung.github.io/JS30/22%20-%20Follow%20Along%20Link%20Highlighter/index-Midas.html) |
+| 22 | Follow Along Link Highlighter | [筆記](https://github.com/midastung/JS30/tree/main/22%20-%20Follow%20Along%20Link%20Highlighter) |  [DEMO](https://midastung.github.io/JS30/22%20-%20Follow%20Along%20Link%20Highlighter/index_Midas.html) |
 | 23 | Speech Synthesis | [筆記](https://github.com/midastung/JS30/tree/main/23%20-%20Speech%20Synthesis) | [DEMO](https://midastung.github.io/JS30/23%20-%20Speech%20Synthesis/index-Midas.html) |
 | 24 | Sticky Nav | N/A | [DEMO](https://midastung.github.io/JS30/24%20-%20Sticky%20Nav/index-Midas.html) |
 | 25 | Event Capture, Propagation, Bubbling and Once | N/A | [DEMO](https://midastung.github.io/JS30/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/index-Midas.html) |
