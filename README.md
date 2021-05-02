@@ -22,7 +22,7 @@ https://github.com/wesbos/JavaScript30
 | 12 | Key Sequence Detection | [筆記](https://github.com/midastung/JS30/tree/main/12%20-%20Key%20Sequence%20Detection) | [DEMO](https://midastung.github.io/JS30/12%20-%20Key%20Sequence%20Detection/index-Midas.html) |
 | 13 | Slide in on Scroll | [筆記](https://github.com/midastung/JS30/tree/main/13%20-%20Slide%20in%20on%20Scroll) | [DEMO](https://midastung.github.io/JS30/13%20-%20Slide%20in%20on%20Scroll/index-Midas.html) |
 | 14 | JavaScript References VS Copying | [筆記](https://github.com/midastung/JS30/tree/main/14%20-%20JavaScript%20References%20VS%20Copying) | [DEMO](https://midastung.github.io/JS30/14%20-%20JavaScript%20References%20VS%20Copying/index-Midas.html) |
-| 15 | LocalStorage | [筆記](https://github.com/midastung/JS30/tree/main/15%20-%20LocalStorage) | [DEMO](https://midastung.github.io/JS30/15%20-%20LocalStorage/index-Midas.html) |
+| 15 | LocalStorage | [筆記](https://github.com/midastung/JS30/tree/main/15%20-%20LocalStorage) | [DEMO](https://midastung.github.io/JS30/15%20-%20LocalStorage/index-START.html) |
 | 16 | Mouse Move Shadow | [筆記](https://github.com/midastung/JS30/tree/main/16%20-%20Mouse%20Move%20Shadow) | [DEMO](https://midastung.github.io/JS30/16%20-%20Mouse%20Move%20Shadow/index-Midas.html) |
 | 17 | Sort Without Articles | [筆記](https://github.com/midastung/JS30/tree/main/17%20-%20Sort%20Without%20Articles) | [DEMO](https://midastung.github.io/JS30/17%20-%20Sort%20Without%20Articles/index-Midas.html) |
 | 18 | Adding Up Times with Reduce | [筆記](https://github.com/midastung/JS30/tree/main/18%20-%20Adding%20Up%20Times%20with%20Reduce) | [DEMO](https://midastung.github.io/JS30/18%20-%20Adding%20Up%20Times%20with%20Reduce/index-Midas.html) |
