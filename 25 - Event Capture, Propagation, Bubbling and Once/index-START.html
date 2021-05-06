@@ -47,12 +47,25 @@
   <button></button>
   <script>
     const divs = document.querySelectorAll('div');
+    const button = document.querySelector('button');
 
     function logText(e) {
       console.log(this.classList.value);
+      // e.stopPropagation(); //stop bubbling!
     }
 
-    divs.forEach(div => div.addEventListener('click', logText));
+    divs.forEach(div => div.addEventListener('click', logText, {
+      //從最根本開始回來算
+      capture: false,
+      //只反應一次
+      once: true
+    }));
+
+    button.addEventListener('click', () => {
+      console.log('Click!!!')
+    }, {
+      once: true,  //let it be unbinded
+    })
   </script>
 </body>
 
