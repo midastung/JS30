@@ -4,5 +4,5 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.host":"localhost",
     "liveServer.settings.port": 5272,
-    "liveServer.settings.root": "/23 - Speech Synthesis"
+    "liveServer.settings.root": "/25 - Event Capture, Propagation, Bubbling and Once"
 }
