@@ -31,9 +31,9 @@ https://github.com/wesbos/JavaScript30
 | 21 | Geolocation | [筆記](https://github.com/midastung/JS30/tree/main/21%20-%20Geolocation) | N/A |
 | 22 | Follow Along Link Highlighter | [筆記](https://github.com/midastung/JS30/tree/main/22%20-%20Follow%20Along%20Link%20Highlighter) |  [DEMO](https://midastung.github.io/JS30/22%20-%20Follow%20Along%20Link%20Highlighter/index_Midas.html) |
 | 23 | Speech Synthesis | [筆記](https://github.com/midastung/JS30/tree/main/23%20-%20Speech%20Synthesis) | [DEMO](https://midastung.github.io/JS30/23%20-%20Speech%20Synthesis/index-START.html) |
-| 24 | Sticky Nav | N/A | [DEMO](https://midastung.github.io/JS30/24%20-%20Sticky%20Nav/index-Midas.html) |
-| 25 | Event Capture, Propagation, Bubbling and Once | N/A | [DEMO](https://midastung.github.io/JS30/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/index-Midas.html) |
-| 26 | Stripe Follow Along Nav | N/A | [DEMO](https://midastung.github.io/JS30/26%20-%20Stripe%20Follow%20Along%20Nav/index-Midas.html) |
+| 24 | Sticky Nav | [筆記](https://github.com/midastung/JS30/tree/main/24%20-%20Sticky%20Nav) | [DEMO](https://midastung.github.io/JS30/24%20-%20Sticky%20Nav/index-Midas.html) |
+| 25 | Event Capture, Propagation, Bubbling and Once | [筆記](https://github.com/midastung/JS30/tree/main/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once)| [DEMO](https://midastung.github.io/JS30/25%20-%20Event%20Capture%2C%20Propagation%2C%20Bubbling%20and%20Once/index-Midas.html) |
+| 26 | Stripe Follow Along Nav | [筆記](https://github.com/midastung/JS30/tree/main/26%20-%20Stripe%20Follow%20Along%20Nav) | [DEMO](https://midastung.github.io/JS30/26%20-%20Stripe%20Follow%20Along%20Nav/index-Midas.html) |
 | 27 | Click and Drag | [筆記](https://github.com/midastung/JS30/tree/main/27%20-%20Click%20and%20Drag) | [DEMO](https://midastung.github.io/JS30/27%20-%20Click%20and%20Drag/index-Midas.html) |
 | 28 | Video Speed Controller | N/A | [DEMO](https://midastung.github.io/JS30/28%20-%20Video%20Speed%20Controller/index-Midas.html) |
 | 29 | Countdown Timer | [筆記](https://github.com/midastung/JS30/tree/main/29%20-%20Countdown%20Timer) | [DEMO](https://midastung.github.io/JS30/29%20-%20Countdown%20Timer/index.html) |
