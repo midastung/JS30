@@ -7,18 +7,24 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 .btn{
-  position: relative;
-  justify-items: center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:40px auto 0;
+  width:600px;
+  height:100px;
+}
+.btn button{
+  margin:auto;
 }
 button{
   border-radius: 15px;
-  width:90px;
-  height: 70px;
-  background-color:  #ffc600;
+  font-size: 2.5em;
+  width:20em;
+  height:70px;
+  background:  #ffc600;
 }
-
 button:hover{
   background-color: #fff;
 }
