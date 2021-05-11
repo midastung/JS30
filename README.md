@@ -36,5 +36,5 @@ https://github.com/wesbos/JavaScript30
 | 26 | Stripe Follow Along Nav | [筆記](https://github.com/midastung/JS30/tree/main/26%20-%20Stripe%20Follow%20Along%20Nav) | [DEMO](https://midastung.github.io/JS30/26%20-%20Stripe%20Follow%20Along%20Nav/index-Midas.html) |
 | 27 | Click and Drag | [筆記](https://github.com/midastung/JS30/tree/main/27%20-%20Click%20and%20Drag) | [DEMO](https://midastung.github.io/JS30/27%20-%20Click%20and%20Drag/index-Midas.html) |
 | 28 | Video Speed Controller | N/A | [DEMO](https://midastung.github.io/JS30/28%20-%20Video%20Speed%20Controller/index-Midas.html) |
-| 29 | Countdown Timer | [筆記](https://github.com/midastung/JS30/tree/main/29%20-%20Countdown%20Timer) | [DEMO](https://midastung.github.io/JS30/29%20-%20Countdown%20Timer/index.html) |
+| 29 | Countdown Timer | [筆記](https://github.com/midastung/JS30/tree/main/29%20-%20Countdown%20Timer) | [DEMO](https://midastung.github.io/JS30/29%20-%20Countdown%20Timer/index-Midass.html) |
 | 30 | Whack A Mole  | [筆記](https://github.com/midastung/JS30/tree/main/30%20-%20Whack%20A%20Mole) | [DEMO](https://midastung.github.io/JS30/30%20-%20Whack%20A%20Mole/index-Midas.html) |

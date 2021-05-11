@@ -8,6 +8,21 @@ html {
   box-sizing: inherit;
 }
 
+.btn{
+  position: relative;
+  justify-items: center;
+}
+button{
+  border-radius: 15px;
+  width:90px;
+  height: 70px;
+  background-color:  #ffc600;
+}
+
+button:hover{
+  background-color: #fff;
+}
+
 body {
   padding: 0;
   margin: 0;
